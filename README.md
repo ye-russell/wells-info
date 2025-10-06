@@ -13,81 +13,54 @@ A modern oil and gas well management application built with Nuxt 3, Vue 3, and T
 
 ## 🚀 Live Demo
 
-🔗 **[View Live Application](https://your-app-name.vercel.app)** *(Will be available after deployment)*
+🔗 **[View Live Application](https://wells-info-8lny6uhu4-ye-russells-projects.vercel.app/)**
 
-## 📋 Quick Start
+## 🛠️ Getting Started
 
-## Setup
+### Prerequisites
+- Node.js 18+ 
+- npm, pnpm, yarn, or bun
 
-Make sure to install dependencies:
+### Installation
 
 ```bash
-# npm
+# Clone the repository
+git clone https://github.com/ye-russell/wells-info.git
+cd wells-info
+
+# Install dependencies
 npm install
-
-# pnpm
+# or
 pnpm install
-
-# yarn
+# or 
 yarn install
-
-# bun
+# or
 bun install
 ```
 
-## Development Server
+### Development
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
+# or
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
+# or
+yarn dev  
+# or
 bun run dev
 ```
 
-## Production
-
-Build the application for production:
+### Production Build
 
 ```bash
-# npm
+# Build for production
 npm run build
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
+# Preview production build locally
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 ## 🚀 Deployment
 
