@@ -6,6 +6,10 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@vueuse/nuxt'
   ],
+  // Deployment optimizations
+  nitro: {
+    preset: 'vercel-edge'
+  },
   css: [
     '~/assets/css/tailwind.css',
     '~/assets/css/components.css'

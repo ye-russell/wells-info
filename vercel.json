@@ -1,0 +1,33 @@
+{
+  "functions": {
+    "server/**": {
+      "maxDuration": 30
+    }
+  },
+  "framework": "nuxtjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".output/public",
+  "installCommand": "npm ci",
+  "env": {
+    "NODE_VERSION": "18.x"
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}
