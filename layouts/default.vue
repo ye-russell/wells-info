@@ -17,17 +17,14 @@
           </div>
 
           <!-- Navigation links -->
-          <div class="nav-links">
+          <nav class="nav-links">
             <NuxtLink to="/" class="nav-link">
               Dashboard
             </NuxtLink>
             <NuxtLink to="/oilfields" class="nav-link">
               Oilfields
             </NuxtLink>
-            <NuxtLink to="/wells" class="nav-link">
-              Wells
-            </NuxtLink>
-          </div>
+          </nav>
         </div>
       </div>
     </nav>

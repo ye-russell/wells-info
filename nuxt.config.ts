@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt'
   ],
   css: [
-    '~/assets/css/main.css'
+    '~/assets/css/tailwind.css',
+    '~/assets/css/components.css'
   ],
   typescript: {
     strict: true
